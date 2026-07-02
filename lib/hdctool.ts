@@ -1,8 +1,18 @@
 import "server-only";
 
-const BASE_URL = process.env.HDCTOOL_BASE_URL!;
-const EMAIL = process.env.HDCTOOL_EMAIL!;
-const PASSWORD = process.env.HDCTOOL_PASSWORD!;
+function requiredEnv(name: string): string {
+  const value = process.env[name];
+  if (!value) {
+    throw new Error(
+      `${name} is required but was not set. Add ${name} to .env.local or your deployment environment.`
+    );
+  }
+  return value;
+}
+
+const BASE_URL = requiredEnv("HDCTOOL_BASE_URL");
+const EMAIL = requiredEnv("HDCTOOL_EMAIL");
+const PASSWORD = requiredEnv("HDCTOOL_PASSWORD");
 
 export type Brand = {
   id: string;
