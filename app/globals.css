@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --color-kolleris-red: #e60000;
+  --color-kolleris-black: #1f1f1f;
+}
+
+@theme inline {
+  --color-red: var(--color-kolleris-red);
+  --color-ink: var(--color-kolleris-black);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-kolleris-black);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes nav-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulse-line {
+  to {
+    width: 80px;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease both;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease both;
+}
+
+.animate-nav-in {
+  animation: nav-in 0.5s ease both;
+}
+
+.animate-ticker {
+  animation: ticker 34s linear infinite;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}
+
+.animate-pulse-line {
+  animation: pulse-line 1.4s ease-in-out infinite alternate;
+}
+
+@keyframes marquee-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-ltr {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-rtl {
+  animation: marquee-rtl 46s linear infinite;
+}
+
+.animate-marquee-ltr {
+  animation: marquee-ltr 60s linear infinite;
+}
+
+.marquee-row:hover .animate-marquee-rtl,
+.marquee-row:hover .animate-marquee-ltr {
+  animation-play-state: paused;
+}

@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "products": "Products",
+    "categories": "Categories",
+    "brands": "Brands",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "eyebrow": "Industrial Tools · Since 1978",
+    "line1": "WHY",
+    "line2": "PROFESSIONALS",
+    "line3": "TRUST",
+    "line4": "KOLLERIS IKE",
+    "subheading": "For 46 years, Kolleris has been the supplier that shipping companies, factories and workshops call. Tools that <hl>work</hl> — no excuses.",
+    "viewProducts": "View Products",
+    "contactUs": "Contact Us",
+    "scroll": "Scroll"
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "brands": "Premium Brands",
+    "products": "Product Codes",
+    "delivery": "Delivery"
+  },
+  "problem": {
+    "eyebrow": "The Problem",
+    "titleA": "THE PROBLEM WITH",
+    "titleB": "EVERY OTHER",
+    "titleC": "SUPPLIER",
+    "items": [
+      {
+        "title": "You Need It Tuesday",
+        "body": "They get it to you Thursday. Direct relationships with Milwaukee, Knipex, Wera — precise availability, no “we'll see”."
+      },
+      {
+        "title": "The Wrong Equipment",
+        "body": "Nobody bothers to understand what you actually need. We know the difference between marine and industrial equipment."
+      },
+      {
+        "title": "Nobody Answers",
+        "body": "Tickets, chatbots, phone queues. Us: one phone number, one person who has the answer."
+      }
+    ]
+  },
+  "categories": {
+    "eyebrow": "The full inventory",
+    "title": "PRODUCT\nCATEGORIES",
+    "subtitle": "From hand tools to high-pressure systems — 30+ core categories and 900 subcategories, backed by real stock, ready to ship.",
+    "previewText": "30+ core categories and 50,000+ product codes, organised so you find exactly what you need.",
+    "categoriesStat": "30+",
+    "productsStat": "50,000+",
+    "categoriesLabel": "Core Categories",
+    "productsLabel": "Product Codes",
+    "subcategories": "subcategories",
+    "viewAll": "View all categories",
+    "storeNote": "Browse the full catalogue, with pricing and availability, in our online store.",
+    "listTitle": "Available Now Online",
+    "listNote": "The categories below reflect our online store stock, with real product-code counts. Contact us for our full inventory."
+  },
+  "brands": {
+    "eyebrow": "Exclusive Partnerships",
+    "title": "THE BRANDS\nWE REPRESENT",
+    "note": "{count}+ leading brands · one address"
+  },
+  "products": {
+    "eyebrow": "Featured Products",
+    "titleA": "FEATURED",
+    "titleB": "PRODUCT",
+    "titleC": "CODES",
+    "view": "View →",
+    "noImage": "No Image",
+    "viewAll": "View All Products"
+  },
+  "cta": {
+    "title": "READY TO SOLVE YOUR NEXT PROBLEM?",
+    "button": "Contact Us Now →"
+  },
+  "footer": {
+    "tagline": "Professional Tools · Since 1978",
+    "company": "Company",
+    "productsCol": "Products",
+    "contactCol": "Contact",
+    "categories": "Categories",
+    "brands": "Brands",
+    "contact": "Contact",
+    "address": "K. Mavromichali 4, Piraeus",
+    "rights": "© 2026 Kolleris. All rights reserved."
+  },
+  "contact": {
+    "title": "Get in Touch with Kolleris",
+    "subtitle": "Have questions about our products or services? Our team is ready to help. Reach us through any of the methods below.",
+    "detailsA": "CONTACT",
+    "detailsB": "DETAILS",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Opening Hours",
+    "weekdays": "Mon - Fri",
+    "saturday": "Saturday",
+    "closed": "Closed",
+    "mapNote": "Map coming soon",
+    "cta": "READY TO WORK TOGETHER?",
+    "ctaText": "Send us an email or call us directly. We'd love to hear from you.",
+    "sendEmail": "Send Email →"
+  }
+}
